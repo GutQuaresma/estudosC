@@ -6,18 +6,18 @@ int main(){
     float media, notafinal;
     char nome[50], turma;
 
-    printf("*** Bem-vindo(a) professor(a) ***");
+    printf("*** Bem-vindo(a) professor(a) ***\n");
 
     //receber as informações básicas
     printf("Escreva as informações básicas do aluno(a)!\n");
     printf("Digite o nome do aluno: \n");
     scanf(" %50[^\n]s", nome);
 
+    printf("Digite a matrícula do aluno: \n");
+    scanf("%d", &matricula);
+
     printf("Digite a turma do aluno(A-Z): \n");
     scanf(" %c", &turma);
-
-    //printf("Digite o número da matrícula: \n");
-    //printf("%d", &matricula);
 
     //receber as notas da prova
     printf("** Cadastro das Notas **\n");
@@ -44,5 +44,9 @@ int main(){
     printf("Média: %.1f\n", media);
     printf("Trabalho: %d\n", trab);
     printf("Nota final: %.1f\n", notafinal);
+
+    //Resolvido problema com a matrícula, mas sem identificar onde errei :/
+
+    return 0;
 
 }
