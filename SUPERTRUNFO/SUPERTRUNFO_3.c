@@ -92,9 +92,9 @@ int main() {
     printf("Pontos Turísticos: %d\n", pontost);
     printf("Densidade Populacional: %f hab/km²\n", denpo); 
     printf("PIB per Capita: %.2f reais\n", pibper); 
-    printf("SuperPoder: %f\n\n", superPoder1); //nova informação exibida
+    printf("SuperPoder: %.2f\n\n", superPoder1); //nova informação exibida
 
-    //Exibição da carta número 1
+    //Exibição da carta número 2
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
@@ -105,7 +105,7 @@ int main() {
     printf("Pontos Turísticos: %d\n", pontost2);
     printf("Densidade Populacional: %f hab/km²\n", denpo2); 
     printf("PIB per Capita: %.2f reais\n", pibper2);
-    printf("SuperPoder: %f\n\n", superPoder2); //nova informação exibida
+    printf("SuperPoder: %.2f\n\n", superPoder2); //nova informação exibida
 
     //comparação das cartas
     printf("Comparação das cartas: \n");

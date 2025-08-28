@@ -46,7 +46,7 @@ int main(){
     //comparações dos produtos
     printf("O produto A tem maior estoque que o produto B? %d\n", estoqueA > estoqueB );
     printf("O produto A tem maior preço que o produto B? %d\n", valorA > valorB);
-    printf("Valor total de A (R$ %.2f) é maior que o valor total de B (R$ %.2f)? %d\n",
+    printf("Valor total de A (R$ %.2f) é maior que o valor total de B (R$ %.2f)? %d\n\n",
     valorTotalA, valorTotalB, valorTotalA > valorTotalB);
 
     return 0;
